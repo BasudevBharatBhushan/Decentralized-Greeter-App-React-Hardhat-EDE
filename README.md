@@ -1,8 +1,21 @@
-Basic Decentralized Greeter App, Using HardHat EDE.
+# Basic Decentralized Greeter App, Using HardHat EDE.
 - In first commit it is hosted in Hardhat local Test Network
 - In Second commit it is hosted in Robsten test Network using Moralis
+### Reference - https://youtu.be/nNUpA0d6CFo | Youtube- [David Razmadze](https://www.youtube.com/c/DavidRazmadze) 
 
-Steps to be followed to run this application in your Local Machine.
+## App Demo Using Hardhat Local Test Network
+
+
+
+https://user-images.githubusercontent.com/64151314/198534327-7d73fea5-06fb-4ed6-a553-9c32dc564779.mp4
+
+### Steps to Run in Local Enviorment
+Step 1 - npm start (Start the frontend)  
+Step 2 - npx hardhat node (Activate the hardhat local blockchain)  
+Step 3 - npx hardhat run --network localhost scripts/deploy.js , deploy the contract  
+Step 4 - Reset the Metamask Account --> Setting - Advanced - Reset Account
+
+## Steps to be followed to run this application in your Local Machine.
 - **Step 1:** Clone the project and save it in your local disk.
 - **Step 2:** Open your terminal inside the project directory and run --- npm i
 - **Step 3:** Sign up in Moralis and Copy the end point for Eth node from Speedy nodes.
